@@ -1,0 +1,65 @@
+*{
+border-radius: 40px 40px 40px 40px;
+}
+body{
+    font-family: arial;
+    background: #000;
+}
+#fundo{
+    width: 540px;
+    height: 280px;
+    background: #FFF8DC;
+    border: outset 5px #ccc;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    top: 50px;
+}
+#grade  {
+    width: 500px;
+    height: 100px;
+    background: #fff;
+    position: relative;
+    left: 20px;
+    top: 5px;
+    border: inset 5px #333; 
+}
+
+#escala img{
+    width: 500px;
+    height: 100px;
+}
+
+/*#escala{
+    width: 40px;
+    height: 50px;
+    position: absolute;
+    margin-top: 20px;
+}*/
+#ponteiro{
+    width: 20px;
+    height: 40px;
+    position: absolute;
+    background-image: url(ponteiro.PNG);
+    bottom: 1px;
+    /*left: 1px;*/
+    top: -0px;
+    transition: left 0.5s;
+}
+button{
+    padding: 0 20px;
+    /*background: linear-gradient(top, yellow);*/
+    background: -moz-linear-gradient(top,green, #000);
+    background: -webkit-linear-gradient(top, green, #000);
+    box-shadow: -5px 5px 20px rgba(0,0,0,20.5);
+}
+button:houver{
+    cursor: pointer;
+    color: #fff;
+}
+button:active{
+    background: linear-gradient(bottom, green, #000);
+    background: -moz-linear-gradient(top,green, #000);
+    background: -webkit-linear-gradient(top, green, #000);
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
